@@ -20,7 +20,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 app.use(cors({
-    origin: 'https://luxury-dieffenbachia-b086f8.netlify.app',
+    origin: 'https://memeinvazio.netlify.app',
     credentials: true
 }));
 
